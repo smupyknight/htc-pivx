@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar la dirección o etiqueta</translation>
+        <translation>Click derecho para editar dirección o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -136,8 +136,8 @@
         <translation>Sirve para desactivar el envío de dinero cuando la cuenta del SO está comprometida. No provee de una seguridad real</translation>
     </message>
     <message>
-        <source>For anonymization, automint, and staking only</source>
-        <translation>Para anonimización y staking solamente</translation>
+        <source>For anonymization and staking only</source>
+        <translation>Desbloquear solo para anonimización y staking</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -229,17 +229,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Máscara de Red</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Suspendido hasta</translation>
-    </message>
-</context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -250,16 +239,16 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
+        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección PIVX que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección PIVX que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
-    </message>
-    <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>La dirección PIVX a cifrar</translation>
+        <source>The PIVX address to sign the message with</source>
+        <translation>La dirección PIVX con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,24 +279,16 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Cifrar la llave privada para esta dirección PIVX</translation>
-    </message>
-    <message>
-        <source>Reset all fields</source>
-        <translation>Limpiar todos los campos</translation>
-    </message>
-    <message>
-        <source>The encrypted private key</source>
-        <translation>La llave privada cifrada</translation>
-    </message>
-    <message>
-        <source>Decrypt the entered key using the passphrase</source>
-        <translation>Descifrar la llave ingresada usando la frase de contraseña</translation>
+        <source>Sign the message to prove you own this PIVX address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección PIVX</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
         <translation>Cifrar &amp;Clave</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Limpiar todos los campos de firma de mensaje</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -322,8 +303,20 @@
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
+        <source>The PIVX address the message was signed with</source>
+        <translation>La dirección PIVX con la que se firmó el mensaje</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección PIVX especificada</translation>
+    </message>
+    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Descifrar &amp;Clave</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Limpiar todos los campos de verificación de mensaje</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -431,10 +424,6 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Navegar por el historial de transacciones</translation>
-    </message>
-    <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Acciones de privacidad para zPIV</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -577,30 +566,6 @@
         <translation>Mostrar la lista de las direcciones y etiquetas usadas</translation>
     </message>
     <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>Creación multifirmas ...</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Crear una nueva dirección multifirma y agregarla a esta cartera</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>Gasto multifirmas...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Gastar desde una dirección multifirmas</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>Firma multifirmas...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Firmar con una dirección multifirmas</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Abrir &amp;URI...</translation>
     </message>
@@ -610,19 +575,11 @@
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Procesados %n bloques del histórico de transacciones.</numerusform><numerusform>Procesados %n bloques del histórico de transacciones.</numerusform></translation>
+        <translation><numerusform>Procesado %n bloque del historial de transacciones.</numerusform><numerusform>Procesados %n bloques del historial de transacciones.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Sincronizando datos adicionales: %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>%1 detrás. Escaneando bloque %2</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt; para anonimato y prueba de participación.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -738,7 +695,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to PIVX network</source>
-        <translation><numerusform>%n conexión(es) activas a la red PIVX</numerusform><numerusform>%n conexión(es) activas a la red PIVX</numerusform></translation>
+        <translation><numerusform>%n conexión(es) activa a la red PIVX</numerusform><numerusform>%n conexion(es) activas a la red PIVX</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -762,15 +719,15 @@
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n horas</numerusform><numerusform>%n horas</numerusform></translation>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n días</numerusform><numerusform>%n días</numerusform></translation>
+        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n semanas</numerusform><numerusform>%n semanas</numerusform></translation>
+        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -778,7 +735,7 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n años</numerusform><numerusform>%n años</numerusform></translation>
+        <translation><numerusform>%n año</numerusform><numerusform>%n años</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -849,16 +806,12 @@ MultiEnvío: %1</translation>
 MultiEnvío: %1</translation>
     </message>
     <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint está actualmente habilitado y configurado</translation>
-    </message>
-    <message>
-        <source>AutoMint is disabled</source>
-        <translation>AutoMint está desactivado</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>El monedero está &lt;b&gt;encriptado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
+        <translation>El monedero está &lt;b&gt;encriptado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt; sólo para anonimato y prueba de participación.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -1070,6 +1023,10 @@ MultiEnvío: %1</translation>
         <translation>medio-alta</translation>
     </message>
     <message>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Puede variar +/- %1 duff(s) por entrada.</translation>
+    </message>
+    <message>
         <source>medium</source>
         <translation>media</translation>
     </message>
@@ -1128,10 +1085,6 @@ MultiEnvío: %1</translation>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>Esta etiqueta se vuelve roja, si algún destinatario recibe una cantidad menor que %1.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Pode variar +/- %1 upiv por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1333,8 +1286,8 @@ MultiEnvío: %1</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>MASTERNODES</source>
-        <translation>MASTERNODES</translation>
+        <source>My Masternodes</source>
+        <translation>Mis Nodos Maestros</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
@@ -1498,14 +1451,6 @@ MultiEnvío no se activará a menos que haga usted click en Activar</translation
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>Label:</source>
-        <translation>Etiqueta:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
-    </message>
-    <message>
         <source>Delete Address From MultiSend Vector</source>
         <translation>Borrar Dirección De Vector MultiEnvío</translation>
     </message>
@@ -1538,10 +1483,6 @@ MultiEnvío no se activará a menos que haga usted click en Activar</translation
         <translation>Enviar Para Recomensas De Nodos Maestros</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(sin etiqueta)</translation>
-    </message>
-    <message>
         <source>The entered address:
 </source>
         <translation>La dirección introducida:
@@ -1564,12 +1505,6 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor Introduzca 1 - 100 por ciento.</translation>
     </message>
     <message>
-        <source>Saved the MultiSend to memory, but failed saving properties to the database.
-</source>
-        <translation>Salvou o MultiSend na memória, mas não salvou as propriedades no banco de dados.
-</translation>
-    </message>
-    <message>
         <source>MultiSend Vector
 </source>
         <translation>Vector MultiEnvío
@@ -1589,72 +1524,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
 <context>
     <name>MultisigDialog</name>
     <message>
-        <source>Multisignature Address Interactions</source>
-        <translation>Interacciones de direcciones multifirmas</translation>
-    </message>
-    <message>
-        <source>Create MultiSignature &amp;Address</source>
-        <translation>Crear una dirección multifirma</translation>
-    </message>
-    <message>
-        <source>How many people must sign to verify a transaction</source>
-        <translation>Cuántas personas deben firmar para verificar una transacción</translation>
-    </message>
-    <message>
-        <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Entra el número mínimo de firmas requerido para firmar la transacción</translation>
-    </message>
-    <message>
-        <source>Address Label:</source>
-        <translation>Etiqueta de dirección</translation>
-    </message>
-    <message>
-        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Agrega otra dirección que pueda firmar para verificar la transacción desde la dirección multifirmas</translation>
-    </message>
-    <message>
-        <source>&amp;Add Address / Key</source>
-        <translation>Agrega dirección / Llave</translation>
-    </message>
-    <message>
-        <source>Local addresses or public keys that can sign:</source>
-        <translation>Direcciones locales o llaves publicas que puedan firmar:</translation>
-    </message>
-    <message>
-        <source>Create a new multisig address</source>
-        <translation>Crea una nueva dirección multifirmas</translation>
-    </message>
-    <message>
-        <source>C&amp;reate</source>
-        <translation>Crear</translation>
-    </message>
-    <message>
         <source>Status:</source>
         <translation>Estado:</translation>
-    </message>
-    <message>
-        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
-Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
-Please be patient after clicking import.</source>
-        <translation>Use debajo para importar rápidamente una dirección al canjearla. ¡No olvide agregar una etiqueta antes de hacer clic en importar!
-Tenga en cuenta que la billetera volverá a explorar la cadena de bloques para buscar transacciones que contengan la nueva dirección.
-Por favor, tenga paciencia después de hacer clic en importar.</translation>
-    </message>
-    <message>
-        <source>&amp;Import Redeem</source>
-        <translation>Importar Canje</translation>
-    </message>
-    <message>
-        <source>&amp;Create MultiSignature Tx</source>
-        <translation>Crear transacción multifirmas</translation>
-    </message>
-    <message>
-        <source>Inputs:</source>
-        <translation>Entradas:</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Control de moneda</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1668,95 +1539,7 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <source>Amount:</source>
         <translation>Cantidad:</translation>
     </message>
-    <message>
-        <source>Add an input to fund the outputs</source>
-        <translation>Agregue una entrada para financiar las salidas</translation>
-    </message>
-    <message>
-        <source>Add a Raw Input</source>
-        <translation>Agregar una entrada sin procesar</translation>
-    </message>
-    <message>
-        <source>Address / Amount:</source>
-        <translation>Dirección / Cantidad:</translation>
-    </message>
-    <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Agregue los destinos para enviar PIV</translation>
-    </message>
-    <message>
-        <source>Add &amp;Destination</source>
-        <translation>Agregar destino</translation>
-    </message>
-    <message>
-        <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Crear un objeto de transacción usando las entradas dadas a las salidas dadas</translation>
-    </message>
-    <message>
-        <source>Cr&amp;eate</source>
-        <translation>Crear</translation>
-    </message>
-    <message>
-        <source>&amp;Sign MultiSignature Tx</source>
-        <translation>Firmar transacción multifirmas</translation>
-    </message>
-    <message>
-        <source>Transaction Hex:</source>
-        <translation>Hexadecimal de transacción:</translation>
-    </message>
-    <message>
-        <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Firma la transacción desde esta cartera o desde llaves privadas provistas</translation>
-    </message>
-    <message>
-        <source>S&amp;ign</source>
-        <translation>Firmar</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DESACTIVADO hasta que la transacción se haya firmado suficientes veces.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Co&amp;mmit</source>
-        <translation>Confirmar</translation>
-    </message>
-    <message>
-        <source>Add private keys to sign the transaction with</source>
-        <translation>Agregar llaves privadas para firmar la transacción</translation>
-    </message>
-    <message>
-        <source>Add Private &amp;Key</source>
-        <translation>Agregar llave privada</translation>
-    </message>
-    <message>
-        <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Firmar solo con llaves privadas (No Recomendado)</translation>
-    </message>
-    <message>
-        <source>Invalid Tx Hash.</source>
-        <translation>Hash de transacción inválido</translation>
-    </message>
-    <message>
-        <source>Vout position must be positive.</source>
-        <translation>La posición de Vout debe ser positiva.</translation>
-    </message>
-    <message>
-        <source>Maximum possible addresses reached. (15)</source>
-        <translation>Máxima cantidad de direcciones posibles alcanzadas. (15)</translation>
-    </message>
-    <message>
-        <source>Vout Position: </source>
-        <translation>Posición Vout:</translation>
-    </message>
-    <message>
-        <source>Amount: </source>
-        <translation>Cantidad:</translation>
-    </message>
-    <message>
-        <source>Maximum (15)</source>
-        <translation>Máximo (15)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ObfuscationConfig</name>
     <message>
@@ -1948,14 +1731,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Ative a cunhagem automática de unidades PIV para zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Ativar zPIV Automint</translation>
-    </message>
-    <message>
         <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
         <translation>Porcentaje de PIVs entrantes que serán automáticamente convertidos a zPIV a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
@@ -1970,10 +1745,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     <message>
         <source>Preferred Automint zPIV Denomination</source>
         <translation>Tamaño de billete zPIV preferido en la creación automática de dinero</translation>
-    </message>
-    <message>
-        <source>Stake split threshold:</source>
-        <translation>Limite de divisão da estaca:</translation>
     </message>
     <message>
         <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
@@ -2040,10 +1811,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Dígitos decimales</translation>
     </message>
     <message>
-        <source>Hide empty balances</source>
-        <translation>Ocultar saldos vazios</translation>
-    </message>
-    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Direcciones web de terceras partes (p.e. un explorador de bloques) que aparecen en la pestaña de transacciones como objetos contextuales del menú. %s en la dirección web es reemplazada por el identificador de la transacción. Múltiples direcciones web están separadas por una barra vertical (|).</translation>
     </message>
@@ -2072,8 +1839,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <source>Any</source>
-        <translation>Qualquer</translation>
+        <source>I don't care</source>
+        <translation>No me preocupa</translation>
     </message>
     <message>
         <source>default</source>
@@ -2103,14 +1870,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <source>The supplied proxy address is invalid.</source>
         <translation>La dirección proxy indicada es inválida.</translation>
     </message>
-    <message>
-        <source>The supplied proxy port is invalid.</source>
-        <translation>A porta do proxy fornecida é inválida.</translation>
-    </message>
-    <message>
-        <source>The supplied proxy settings are invalid.</source>
-        <translation>As configurações de proxy fornecidas são inválidas.</translation>
-    </message>
 </context>
 <context>
     <name>OverviewPage</name>
@@ -2119,20 +1878,16 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Formulario</translation>
     </message>
     <message>
+        <source>PIV Balances</source>
+        <translation>Balances PIV</translation>
+    </message>
+    <message>
         <source>Available:</source>
         <translation>Disponible:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>Tu balance actualmente disponible</translation>
-    </message>
-    <message>
-        <source>Total Balance, including all unavailable coins.</source>
-        <translation>Saldo Total, incluindo todas as moedas indisponíveis.</translation>
-    </message>
-    <message>
-        <source>PIV Balance</source>
-        <translation>Balance PIV</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2151,32 +1906,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>Current locked balance in watch-only addresses</source>
-        <translation>Saldo bloqueado atual em endereços somente para assistir</translation>
-    </message>
-    <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Seu saldo atual da PIVX, transações não confirmadas e imaturas incluídas</translation>
-    </message>
-    <message>
-        <source>zPIV Balance</source>
-        <translation>Balanço zPIV</translation>
-    </message>
-    <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red PIVX después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
-    </message>
-    <message>
-        <source>OVERVIEW</source>
-        <translation>VISÃO GERAL</translation>
-    </message>
-    <message>
-        <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Saldos combinados (incluidas las monedas no confirmadas e inmaduras)</translation>
-    </message>
-    <message>
-        <source>Combined Balance</source>
-        <translation>Saldo Combinado</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -2189,6 +1920,10 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     <message>
         <source>Total:</source>
         <translation>Total:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Su balance total actual</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
@@ -2207,20 +1942,24 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Disponible:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Bloqueado PIV o Masternode colaterales. Estos están excluidos de la zPIV minting.</translation>
+        <source>PIV:</source>
+        <translation>PIV:</translation>
     </message>
     <message>
-        <source>Locked:</source>
-        <translation>Bloqueado:</translation>
+        <source>zPIV:</source>
+        <translation>zPIV:</translation>
     </message>
     <message>
-        <source>Unconfirmed:</source>
-        <translation>Sin confirmar:</translation>
+        <source>0 %</source>
+        <translation>0 %</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Seu saldo atual do zPIV, zPIV não confirmado e imaturo incluído.</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
+    </message>
+    <message>
+        <source>Zerocoin Balance</source>
+        <translation>Balance Zerocoin</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2230,29 +1969,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <source>out of sync</source>
         <translation>desincronizado</translation>
     </message>
-    <message>
-        <source>Current percentage of zPIV.
-If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
-</source>
-        <translation>Porcentaje actual de zPIV.
-Si AutoMint está habilitado, este porcentaje se establecerá alrededor del porcentaje de AutoMint configurado (predeterminado = 10%).
-</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint está actualmente habilitado y configurado</translation>
-    </message>
-    <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in pivx.conf.</source>
-        <translation>Para desactivar AutoMint agrega 'enablezeromint=0' en pivx.conf.</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf</source>
-        <translation>AutoMint está actualmente desactivado.
-Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en pivx.conf</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -2362,12 +2079,24 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en pi
 <context>
     <name>PrivacyDialog</name>
     <message>
+        <source>PIV which were anonymized via Zerocin Protocol</source>
+        <translation>PIV que fueron anonimizados mediante Protocolo Zerocoin</translation>
+    </message>
+    <message>
+        <source>Zerocoin PIV (zPIV)</source>
+        <translation>Zerocoin PIV (zPIV)</translation>
+    </message>
+    <message>
         <source>Zerocoin Actions:</source>
         <translation>Acciones Zerocoin:</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red PIVX después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+    </message>
+    <message>
+        <source>Enter an amount of Piv to convert to zPiv</source>
+        <translation>Introduzca la cantidad de Piv que desea convertir a zPiv</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2380,10 +2109,6 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en pi
     <message>
         <source>zPIV</source>
         <translation>zPIV</translation>
-    </message>
-    <message>
-        <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
-        <translation>Disponibles para minting son monedas que están confirmadas y no bloqueadas o Masternode colaterales.</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
@@ -2426,8 +2151,12 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en pi
         <translation>Estado y/o Mensajes de la última Acción de Creación de moneda.</translation>
     </message>
     <message>
-        <source>PRIVACY</source>
-        <translation>PRIVACIDADE</translation>
+        <source>zPiv Control</source>
+        <translation>Control zPiv</translation>
+    </message>
+    <message>
+        <source>zPiv Selected:</source>
+        <translation>zPiv Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2442,20 +2171,8 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en pi
         <translation>Gastar Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>ZPIV disponible (maduro y gastable) para gastar</translation>
-    </message>
-    <message>
         <source>Available Balance:</source>
         <translation>Balance disponible:</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zPIV for spending
-
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>ZPIV disponible (maduro y gastable) para gastar
-
-zPIV son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de la misma denominación después de ellos fueron minted</translation>
     </message>
     <message>
         <source>0 zPIV</source>
@@ -2530,81 +2247,12 @@ zPIV son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de la
         <translation>Estadísticas Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Balance total incluyendo zPIV no confirmado e inmaduro</translation>
-    </message>
-    <message>
-        <source>Total Zerocoin  Balance:</source>
-        <translation>Balance total de Zerocoin:</translation>
-    </message>
-    <message>
         <source>Denominations with value 1:</source>
         <translation>Billetes con valor 1:</translation>
     </message>
     <message>
         <source>Denom. with value 1:</source>
         <translation>Billetes con valor 1:</translation>
-    </message>
-    <message>
-        <source>Show the current status of automatic zPIV minting.
-
-To change the status (restart required):
-- enable: add 'enablezeromint=1' to pivx.conf
-- disable: add 'enablezeromint=0' to pivx.conf
-
-To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
-
-</source>
-        <translation>Mostrar o status atual do zPIV minting automático.
-
-Para alterar o status (reinicialização obrigatória): 
-- enable: adicione 'enablezeromint = 1' ao pivx.conf
-- disable: adiciona 'enablezeromint = 0' ao pivx.conf
-
-Para alterar a porcentagem (não é necessário reiniciar): 
-- menu Configurações-&gt; Opções-&gt; Porcentagem de zPIVs automáticos
-</translation>
-    </message>
-    <message>
-        <source>AutoMint Status</source>
-        <translation>Status de AutoMint</translation>
-    </message>
-    <message>
-        <source>Global Supply:</source>
-        <translation>Abastecimento Global:</translation>
-    </message>
-    <message>
-        <source>Denom. 1:</source>
-        <translation>Denom. 1:</translation>
-    </message>
-    <message>
-        <source>Denom. 5:</source>
-        <translation>Denom. 5:</translation>
-    </message>
-    <message>
-        <source>Denom. 10:</source>
-        <translation>Denom. 10:</translation>
-    </message>
-    <message>
-        <source>Denom. 50:</source>
-        <translation>Denom. 50:</translation>
-    </message>
-    <message>
-        <source>Denom. 100:</source>
-        <translation>Denom. 100:</translation>
-    </message>
-    <message>
-        <source>Denom. 500:</source>
-        <translation>Denom. 500:</translation>
-    </message>
-    <message>
-        <source>Denom. 1000:</source>
-        <translation>Denom. 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. 5000:</source>
-        <translation>Denom. 5000:</translation>
     </message>
     <message>
         <source>0 x</source>
@@ -2667,12 +2315,12 @@ Para alterar a porcentagem (não é necessário reiniciar):
         <translation>Billetes con valor 5000:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
+        <source>Note: This hidden objects are used for communication between the 'Coin Control' dialog and its parent objects. We don't want to change/reimplement the existing Coin Control, so this objects must be here, even when we don't use them. No, we don't like this approach, either.</source>
+        <translation>Nota: Estos objetos ocultos se usan para comunicación entre el diálogo "Control de Monedas' y sus objetos ascendientes. No queremos cambiar/reimplementar el Control de Moneda existente, así que dejamos aquí estos objetos, aunque no los utilicemos. Mejoraremos este planteamiento en el futuro.</translation>
     </message>
     <message>
-        <source>TextLabel</source>
-        <translation>EtiquetaDeTexto</translation>
+        <source>Priority:</source>
+        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -2737,94 +2385,6 @@ Para alterar a porcentagem (não é necessário reiniciar):
     <message>
         <source>Copy amount</source>
         <translation>Copiar cantidad</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;ativado&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;Desativado&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source> Configured target percentage: &lt;b&gt;</source>
-        <translation>Porcentagem de segmentação configurada:&lt;b&gt;</translation>
-    </message>
-    <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV actualmente está desactivado debido al mantenimiento.</translation>
-    </message>
-    <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV se encuentra actualmente en mantenimiento.</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt; 1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt; 5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt; 10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>AutoMint Status:</source>
-        <translation>Status AutoMint:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5000&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2897,10 +2457,6 @@ Por favor espere...</translation>
         <translation>a la dirección</translation>
     </message>
     <message>
-        <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
-        <translation>a una dirección local recién generada (no utilizada y, por lo tanto, anónima)&lt;br /&gt;</translation>
-    </message>
-    <message>
         <source>with Security Level </source>
         <translation>con Nivel de Seguridad</translation>
     </message>
@@ -2917,24 +2473,12 @@ Esto es computacionalmente intensivo, puede necesitar varios minutos dependiendo
 Por favor tenga paciencia...</translation>
     </message>
     <message>
-        <source>Too much inputs (</source>
-        <translation>Demasiadas entradas (</translation>
-    </message>
-    <message>
-        <source>) needed. 
-Maximum allowed: </source>
-        <translation>) necesario.
-Máximo permitido:</translation>
-    </message>
-    <message>
-        <source>
-Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
-        <translation>
-También mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o reduzca la cantidad a gastar.</translation>
-    </message>
-    <message>
         <source>Spend Zerocoin failed with status = </source>
         <translation>Gastar Zerocoin falló con estado =</translation>
+    </message>
+    <message>
+        <source>zPiv Spend #: </source>
+        <translation>Gastar zPiv #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2955,6 +2499,10 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>address: </source>
         <translation>dirección:</translation>
+    </message>
+    <message>
+        <source>zPiv Mint</source>
+        <translation>Creación de zPiv</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3154,16 +2702,8 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>&amp;Nodos conectados</translation>
     </message>
     <message>
-        <source>Banned peers</source>
-        <translation>Pares proibidos</translation>
-    </message>
-    <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Seleccione un nodo conectado para ver información detallada.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Whitelisted</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -3180,6 +2720,14 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Services</source>
         <translation>Servicios</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Altura de inicio</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Altura de sincronía</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -3214,36 +2762,8 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Reparar &amp;Monedero</translation>
     </message>
     <message>
-        <source>Delete local Blockchain Folders</source>
-        <translation>Eliminar directorios locales de Blockchain</translation>
-    </message>
-    <message>
         <source>Wallet In Use:</source>
         <translation>Monedero En Uso:</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Bloco de partida</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Cabeçalhos sincronizados</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Blocos sincronizados</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>A duração de um ping atualmente pendente.</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Espera de Ping</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Compensação Temporal</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
@@ -3286,14 +2806,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Reconstruir el índice de la cadena de bloques desde los archivos blk000??.dat actuales.</translation>
     </message>
     <message>
-        <source>-resync:</source>
-        <translation>resincronizando:</translation>
-    </message>
-    <message>
-        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Eliminar todos los directorios locales de blockchain y sincronizar la cartera desde el principio</translation>
-    </message>
-    <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
         <translation>Los botones de más abajo reiniciarán el programa con comandos especiales para reparar el monedero, solucionar problemas con cadenas de bloques corruptas o buscar transacciones obsoletas o perdidas</translation>
     </message>
@@ -3322,54 +2834,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Bienvenido a la consola RPC de PIVX.</translation>
     </message>
     <message>
-        <source>&amp;Disconnect Node</source>
-        <translation>&amp; Disconnect Node</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Nó de proibição para</translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;hour</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;day</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;week</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;year</translation>
-    </message>
-    <message>
-        <source>&amp;Unban Node</source>
-        <translation>&amp; Unban Node</translation>
-    </message>
-    <message>
-        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Esto eliminará las carpetas de blockchain locales y la cartera sincronizará la cadena de bloques completa desde cero.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Esto requiere bastante tiempo y descarga una gran cantidad de datos.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Sus transacciones y fondos serán visibles nuevamente después de que se haya completado la descarga.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>¿Desea continuar?.&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Confirm resync Blockchain</source>
-        <translation>Confirmar resincronización de Blockchain</translation>
-    </message>
-    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Use las teclas arriba y abajo para navegar por la historia, y &lt;b&gt;Ctrl-L&lt;/b&gt; para limpiar la pantalla.</translation>
     </message>
@@ -3394,10 +2858,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
-    </message>
-    <message>
         <source>via %1</source>
         <translation>via %1</translation>
     </message>
@@ -3414,16 +2874,12 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Salientes</translation>
     </message>
     <message>
-        <source>Yes</source>
-        <translation>sí</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Não</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Desconocido</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Descargando...</translation>
     </message>
 </context>
 <context>
@@ -3447,10 +2903,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
         <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red PIVX.</translation>
-    </message>
-    <message>
-        <source>RECEIVE</source>
-        <translation>RECEBER</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
@@ -3610,10 +3062,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SEND</source>
-        <translation>ENVIAR</translation>
-    </message>
-    <message>
         <source>Coin Control Features</source>
         <translation>Funciones de Control de Monedas</translation>
     </message>
@@ -3720,10 +3168,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(La comisión automática no se ha inicializado todavía. Esto normalmente necesita unos cuantos bloques...)</translation>
-    </message>
-    <message>
-        <source>SwiftX</source>
-        <translation>SwiftX</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -3842,8 +3286,20 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>La herramienta de división de bloques no funciona con varias direcciones. Inténtelo otra vez.</translation>
     </message>
     <message>
+        <source>using</source>
+        <translation>usando</translation>
+    </message>
+    <message>
+        <source>anonymous funds</source>
+        <translation>fondos anónimos</translation>
+    </message>
+    <message>
         <source>Warning: Invalid PIVX address</source>
         <translation>Advertencia: Direcciones PIVX inválidas</translation>
+    </message>
+    <message>
+        <source>any available funds (not recommended)</source>
+        <translation>cualquier fondo disponible (no recomendado)</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3871,15 +3327,11 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Estimamos que empezará la confirmación en %n bloques.</numerusform><numerusform>Estimamos que empezará la confirmación en %n bloques.</numerusform></translation>
+        <translation><numerusform>Estimamos que la confirmación empezará dentro de %n bloque.</numerusform><numerusform>Estimamos que la confirmación empezará dentro de %n bloques.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>La dirección de destino no es válida, por favor compruébelo de nuevo.</translation>
-    </message>
-    <message>
-        <source>using SwiftX</source>
-        <translation>usando o SwiftX</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
@@ -4197,7 +3649,7 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Abierto para %n bloques más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
+        <translation><numerusform>Abierto para %n bloque más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -4220,38 +3672,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>%1 confirmaciones</translation>
     </message>
     <message>
-        <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (verificado via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1/confirmado (verificado via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>%1 confirmaciones (verificado via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/confirmado (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 confirmaciones (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
-    </message>
-    <message>
-        <source>%1/offline (SwiftX verification failed)</source>
-        <translation>%1/offline (falló la verificación SwiftTX)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (SwiftX verification failed)</source>
-        <translation>%1/confirmado (falló la verificación SwiftTX)</translation>
-    </message>
-    <message>
         <source>Status</source>
         <translation>Estado</translation>
     </message>
@@ -4261,7 +3681,7 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, retransmitido a través de %n nodos</numerusform><numerusform>, retransmitido a través de %n nodos</numerusform></translation>
+        <translation><numerusform>, retransmitido a través de %n nodo</numerusform><numerusform>, retransmitido a través de %n nodos</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
@@ -4305,7 +3725,7 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>madura en %n bloques más</numerusform><numerusform>madura en %n bloques más</numerusform></translation>
+        <translation><numerusform>madurará dentro de %n bloque</numerusform><numerusform>madurará dentro de %n bloques</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -4407,7 +3827,7 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Abierto para %n bloques más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
+        <translation><numerusform>Abierto para %n bloque más</numerusform><numerusform>Abierto por %n bloques más</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -4486,6 +3906,10 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Pago a usted mismo</translation>
     </message>
     <message>
+        <source>Minted</source>
+        <translation>Creación de moneda</translation>
+    </message>
+    <message>
         <source>Mined</source>
         <translation>Minado</translation>
     </message>
@@ -4494,8 +3918,32 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Ofuscado</translation>
     </message>
     <message>
+        <source>Converted Piv to zPiv</source>
+        <translation>Piv convertidos a zPiv</translation>
+    </message>
+    <message>
+        <source>Spent zPiv</source>
+        <translation>zPiv Gastados</translation>
+    </message>
+    <message>
+        <source>Received Piv from zPiv</source>
+        <translation>Piv recibidos desde zPiv</translation>
+    </message>
+    <message>
+        <source>Minted Change as zPiv from zPiv Spend</source>
+        <translation>Cambio Creado en zPiv por un Gasto zPiv</translation>
+    </message>
+    <message>
+        <source>Converted zPiv to Piv</source>
+        <translation>zPiv convertidos en Piv</translation>
+    </message>
+    <message>
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
+    </message>
+    <message>
+        <source>zPiv Accumulator</source>
+        <translation>Acumulador zPiv</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4569,6 +4017,26 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Enviado a</translation>
     </message>
     <message>
+        <source>Obfuscated</source>
+        <translation>Ofuscado</translation>
+    </message>
+    <message>
+        <source>Obfuscation Make Collateral Inputs</source>
+        <translation>La Ofuscación Crea Entradas Colaterales</translation>
+    </message>
+    <message>
+        <source>Obfuscation Create Denominations</source>
+        <translation>Ofuscación Crea Billetes</translation>
+    </message>
+    <message>
+        <source>Obfuscation Denominate</source>
+        <translation>Ofuscación Denominada</translation>
+    </message>
+    <message>
+        <source>Obfuscation Collateral Payment</source>
+        <translation>Pago Colateral de Ofuscación</translation>
+    </message>
+    <message>
         <source>To yourself</source>
         <translation>A usted mismo</translation>
     </message>
@@ -4585,12 +4053,20 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
+        <source>Received Piv from zPiv</source>
+        <translation>Piv recibidos desde zPiv</translation>
+    </message>
+    <message>
         <source>Zerocoin Mint</source>
         <translation>Creación de moneda Zerocoin</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
         <translation>Gasto de Zerocoin</translation>
+    </message>
+    <message>
+        <source>Zerocoin Spend, Change in zPiv</source>
+        <translation>Gasto de Zerocoin, Cambio en zPiv</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4713,17 +4189,9 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <source>Send Coins</source>
         <translation>Enviar Monedas</translation>
     </message>
-    <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 PIV.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletView</name>
-    <message>
-        <source>HISTORY</source>
-        <translation>HISTÓRIA</translation>
-    </message>
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Exportar</translation>
@@ -4744,9 +4212,29 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <source>Wallet Data (*.dat)</source>
         <translation>Datos del Monedero (*.dat)</translation>
     </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>La copia de seguridad Falló</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Hubo un error intentando guardar los datos del monedero a %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Copia de Seguridad Satisfactoria</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Los datos del monedero se guardaron correctamente a %1.</translation>
+    </message>
 </context>
 <context>
     <name>ZPivControlDialog</name>
+    <message>
+        <source>Select zPiv to Spend</source>
+        <translation>Seleccione zPiv a Gastar</translation>
+    </message>
     <message>
         <source>Quantity</source>
         <translation>Cantidad</translation>
@@ -4756,8 +4244,8 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zPiv</source>
+        <translation>zPiv</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4777,6 +4265,10 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Permitir conexiones JSON-RPC  desde la fuente especificada. Valido para &lt;ip&gt; sea una única IP (ej: 1.2.3.4), una red/mascara de red (ej: 1.2.3.4/255.255.255.0) o una red/CIDR (ej: 1.2.3.4/24). Esta opción puede ser especificada múltiples veces.</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Un error ocurrió mientras se ajustaba la dirección RPC %s puerto %u para escucha en: %s</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -4831,10 +4323,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Error: La escucha para conexiones entrantes falló (la escucha retorno error %s)</translation>
     </message>
     <message>
-        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
-        <translation>Erro: a transação é maior que o tamanho máximo permitido da transação!</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Error: Argumento -socks no soportado. No se permite utilizar la versión SOCKS, solo proxies de SOCKS5 están soportados.</translation>
     </message>
@@ -4873,10 +4361,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>En este modo -genproclimit controla cuantos bloques son generados inmediatamente.</translation>
-    </message>
-    <message>
-        <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
-        <translation>Fondos insuficientes o fondos confirmados insuficientes, es posible que tenga que esperar unos minutos y volver a intentarlo.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
@@ -4953,6 +4437,30 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>To use pivxd, or the -server option to pivx-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=pivxrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
+</source>
+        <translation>Para usar pivxd, o la opción -server de pivx-qt, debes definir un rpcpassword en el archivo de configuración:
+%s
+Es recomendado que uses la siguiente contraseña aleatoria:
+rpcuser=pivx
+rpcrpcpassword=%s
+(No necesitas recordar esta contraseña)
+El nombre de usuario y contraseña NO DEBEN ser los mismos.
+Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
+También es recomendado definir alertnotify de manera que seas notificado de problemas;
+por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
+</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
@@ -5041,6 +4549,10 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Aceptar peticiones públicas REST (predeterminado: %u)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Métodos de cifrado aceptables (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
@@ -5143,16 +4655,16 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Se detectó base de datos de bloques dañado</translation>
     </message>
     <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>El valor %s de -rpcbind no pudo ser leído como una dirección de red.</translation>
+    </message>
+    <message>
         <source>Could not parse masternode.conf</source>
         <translation>No se pudo analizar el contenido de masternode.conf </translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Opciones de Depuración/Pruebas:</translation>
-    </message>
-    <message>
-        <source>Delete blockchain folders and resync from scratch</source>
-        <translation>Eliminar directorios de Blockchain y resincronizar desde el principio</translation>
     </message>
     <message>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
@@ -5181,14 +4693,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
         <translation>Habilitar creación automática de Zerocoin (0-1, por defecto: %u)</translation>
-    </message>
-    <message>
-        <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activar inclusión del hash de la transacción (fijada mediante SwiftTX) en &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activar inclusión de la transacción en bruto (fijada mediante SwiftTX) en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -5265,10 +4769,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Error: You already have pending entries in the Obfuscation pool</source>
         <translation>Error: Ya tienes entradas pendientes en el pool de Ofuscación</translation>
-    </message>
-    <message>
-        <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Error al calcular el punto de control del acumulador</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -5359,6 +4859,10 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Dirección o nombre de equipo -onion inválido: '%s'</translation>
     </message>
     <message>
+        <source>Invalid -proxy address or hostname: '%s'</source>
+        <translation>Dirección o nombre de equipo -proxy inválido: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
         <translation>Importe inválido para -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
@@ -5407,18 +4911,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
-        <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Porcentaje de Zerocoin creadas automáticamente (10-100, por defecto: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Reindexar as estatísticas de fornecimento de dinheiro PIV e zPIV</translation>
-    </message>
-    <message>
-        <source>SwiftX options:</source>
-        <translation>Opciones SwiftX:</translation>
-    </message>
-    <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation>Esto es una versión pre-release de prueba - use bajo su propia responsabilidad - ¡No lo utilice para recompensa de participación ni aplicaciones de comercio!</translation>
     </message>
@@ -5439,14 +4931,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
 </translation>
     </message>
     <message>
-        <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica PIVX (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Activar swifttx, mostrar confirmaciones para transacciones bloqueadas (bool, predeterminado: %s)</translation>
-    </message>
-    <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>¡La transacción fue rechazada! Esto puede ocurrir si alguna de sus monedas ya se gastó con anterioridad, por ejemplo, si estuvo usted usando una copia de su monedero wallet.dat y gastó allí monedas pero no las marcó como gastadas aquí.</translation>
     </message>
@@ -5459,24 +4943,8 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Error: Se ha especificado un argumento no soportado -checklevel. El Checklevel debe ser siempre 4. </translation>
     </message>
     <message>
-        <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
-        <translation>Execute o comando quando o melhor bloco for alterado e seu tamanho terminar (%s em cmd é substituído por hash de bloco, %d com o tamanho do bloco)</translation>
-    </message>
-    <message>
-        <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
-        <translation>Não foi possível encontrar o conjunto de moedas entre as moedas retidas com menos de um máximo de gastos</translation>
-    </message>
-    <message>
-        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
-        <translation>Em casos raros, um gasto com 7 moedas excede nosso tamanho máximo de transação permitido. Repita o investimento usando 6 moedas ou menos</translation>
-    </message>
-    <message>
         <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
         <translation>Tamaño de Billete Zerocoin Preferido para los Zerocoin creados automáticamente (1/5/10/50/100/500/1000/5000), poner 0 si no tiene preferencias. Por defecto: %u) </translation>
-    </message>
-    <message>
-        <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftX requiere entradas con al menos 6 confirmaciones, es posible que deba esperar unos minutos e intente de nuevo.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -5485,10 +4953,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
         <translation>Intentar forzar la recuperación de la cadena de bloques corrupta</translation>
-    </message>
-    <message>
-        <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: testemunha do acumulador não verifica</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
@@ -5517,30 +4981,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
         <translation>Activar funcionalidad de recompensa por participación (0-1, por defecto: %u)</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Error: Un error interno fatal a ocurrido, ver debug.log para mas detalles</translation>
-    </message>
-    <message>
-        <source>Error: No valid utxo!</source>
-        <translation>Erro: Nenhum utxo válido!</translation>
-    </message>
-    <message>
-        <source>Failed to create mint</source>
-        <translation>Falha ao criar hortelã</translation>
-    </message>
-    <message>
-        <source>Failed to deserialize</source>
-        <translation>Falha ao desserializar</translation>
-    </message>
-    <message>
-        <source>Failed to select a zerocoin</source>
-        <translation>Falha ao selecionar um zerocoin</translation>
-    </message>
-    <message>
-        <source>Failed to write coin serial number into wallet</source>
-        <translation>Falha ao gravar o número de série da moeda na carteira</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5603,20 +5043,12 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Cargando monedero...</translation>
     </message>
     <message>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Localização do cookie de autenticação (padrão: data dir)</translation>
-    </message>
-    <message>
         <source>Lock is already in place.</source>
         <translation>Bloqueo esta en su lugar.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
         <translation>Bloquear nodos maestros desde el archivo de configuración de nodo maestro (predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Pesquisa (): Endereço de proxy ou nome de host inválido: '%s'</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -5643,20 +5075,12 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Máximo buffer de envío por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Mint did not make it into blockchain</source>
-        <translation>Mint não fez isso em blockchain</translation>
-    </message>
-    <message>
         <source>Missing input transaction information.</source>
         <translation>Información de transacciones de entrada perdidas.</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
         <translation>Mezcla en progreso...</translation>
-    </message>
-    <message>
-        <source>Need address because change is not exact</source>
-        <translation>Precisa de endereço porque a mudança não é exata</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
@@ -5731,12 +5155,8 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Contraseña para conexiones JSON-RPC</translation>
     </message>
     <message>
-        <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid (): Endereço de proxy ou nome de host inválido: '%s'</translation>
-    </message>
-    <message>
-        <source>Preparing for resync...</source>
-        <translation>Preparando para resincronizar...</translation>
+        <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
+        <translation>Porcentaje de Zerocoin creadas automáticamente (10-100, por defecto: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
@@ -5747,8 +5167,16 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Mostrar versión y salir</translation>
     </message>
     <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones RPC SSL: (ver el Bitcoin Wiki para instrucciones de instalación SSL)</translation>
+    </message>
+    <message>
         <source>RPC server options:</source>
         <translation>Opciones del servidor RPC:</translation>
+    </message>
+    <message>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Soporte RPC para conexiones persistentes HTTP (predeterminado %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
@@ -5765,10 +5193,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Recibir y mostrar alertas de red P2P (predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the accumulator database</source>
-        <translation>Reindexar la base de datos del acumulador</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
@@ -5807,6 +5231,14 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Enviar transacciones como transacciones cero-comisión si es posible (predeterminado: %u)</translation>
     </message>
     <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Archivo certificado del servidor (predeterminado: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Clave privada del servidor (predeterminado: %s)</translation>
+    </message>
+    <message>
         <source>Session not complete!</source>
         <translation>Sesión no completa!</translation>
     </message>
@@ -5833,10 +5265,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Ajustar el tamaño mínimo de bloque en bytes (predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Set the Maximum reorg depth (default: %u)</source>
-        <translation>Establezca la profundidad máxima de reorganización (valor predeterminado: %u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
@@ -5899,10 +5327,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Especifique su propia dirección pública</translation>
     </message>
     <message>
-        <source>Spend Valid</source>
-        <translation>Gastar Válido</translation>
-    </message>
-    <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
         <translation>Gastar cambio no confirmado cuando se envían transacciones (predeterminado: %u)</translation>
     </message>
@@ -5955,22 +5379,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Sincronizando con la red... </translation>
     </message>
     <message>
-        <source>The coin spend has been used</source>
-        <translation>O gasto com moedas foi usado</translation>
-    </message>
-    <message>
-        <source>The new spend coin transaction did not verify</source>
-        <translation>A nova transação de moeda de gasto não foi confirmada</translation>
-    </message>
-    <message>
-        <source>The selected mint coin is an invalid coin</source>
-        <translation>A moeda de hortelã selecionada é uma moeda inválida</translation>
-    </message>
-    <message>
-        <source>The transaction did not verify</source>
-        <translation>A transação não verificou</translation>
-    </message>
-    <message>
         <source>This help message</source>
         <translation>Este mensaje de ayuda</translation>
     </message>
@@ -5991,24 +5399,12 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Limite para desconexión de peers de mal desempeño (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Too many spends needed</source>
-        <translation>Gastos demais são necessários</translation>
-    </message>
-    <message>
         <source>Tor control port password (default: empty)</source>
         <translation>Contraseña del puerto de control Tor (por defecto: vacío)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
         <translation>Puerto de control Tor a utilizar si está activada la escucha Onion (por defecto: %s)</translation>
-    </message>
-    <message>
-        <source>Transaction Created</source>
-        <translation>Transação Criada</translation>
-    </message>
-    <message>
-        <source>Transaction Mint Started</source>
-        <translation>Cotação de transação iniciada</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -6043,28 +5439,12 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Transmitiendo la transacción final.</translation>
     </message>
     <message>
-        <source>Try to spend with a higher security level to include more coins</source>
-        <translation>Tente gastar com um nível de segurança mais alto para incluir mais moedas</translation>
-    </message>
-    <message>
-        <source>Trying to spend an already spent serial #, try again.</source>
-        <translation>Tentando gastar um número de série já gasto, tente novamente.</translation>
-    </message>
-    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Imposible enlazar %s en esta computadora (enlace retorna error %s)</translation>
     </message>
     <message>
-        <source>Unable to find transaction containing mint</source>
-        <translation>Não é possível encontrar transações contendo hortelã</translation>
-    </message>
-    <message>
         <source>Unable to sign spork message, wrong key?</source>
         <translation>Imposible firmar el mensaje spork, ¿llave equivocada?</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Não é possível iniciar o servidor HTTP. Veja o log de depuração para detalhes.</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -6079,16 +5459,16 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Actualizar el monedero al formato ultimo</translation>
     </message>
     <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Usar OpenSSL (https) para conexiones JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Usar UPnP para mapear el puerto de escucha (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Usar UPnP para mapear el puerto de escucha (predeterminado: 1 cuando esta en escucha)</translation>
-    </message>
-    <message>
-        <source>Use a custom max chain reorganization depth (default: %u)</source>
-        <translation>Utilice una profundidad de reorganización de cadena máxima personalizada (valor predeterminado: %u)</translation>
     </message>
     <message>
         <source>Use the test network</source>
@@ -6151,10 +5531,6 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
         <translation>Probando...</translation>
     </message>
     <message>
-        <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Você não tem Zerocoins suficientes na sua carteira</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Usted necesita reconstruir la base de datos usando -reindex para cambiar -txindex</translation>
     </message>
@@ -6177,6 +5553,10 @@ También mint las denominaciones más altas (por lo tanto, se necesitan menos da
     <message>
         <source>Zerocoin options:</source>
         <translation>Opciones Zerocoin:</translation>
+    </message>
+    <message>
+        <source>failed to validate zerocoin</source>
+        <translation>fallo al validar zerocoin</translation>
     </message>
     <message>
         <source>on startup</source>

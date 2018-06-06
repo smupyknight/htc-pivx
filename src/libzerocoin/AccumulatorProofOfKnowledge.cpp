@@ -10,7 +10,6 @@
  * @license    This project is released under the MIT license.
  **/
 // Copyright (c) 2017 The PIVX developers
-
 #include "AccumulatorProofOfKnowledge.h"
 #include "hash.h"
 

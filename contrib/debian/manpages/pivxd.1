@@ -1,14 +1,14 @@
 .TH PIVD "1" "February 2017" "pivxd 2.1.4.1"
 .SH NAME
-PIVX \- peer-to-peer network based digital currency
+Pivx \- peer-to-peer network based digital currency
 .SH SYNOPSIS
 pivxd [options] <command> [params]
 .TP
 pivxd [options] help <command> \- Get help for a command
 .SH DESCRIPTION
-This  manual page documents the pivxd program. PIVX is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
+This  manual page documents the pivxd program. Pivx is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
 
-PIVX can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the PIVX system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
+Pivx can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the Pivx system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
 
 .SH OPTIONS
 .TP
@@ -62,6 +62,20 @@ Allow JSON\-RPC connections from specified IP address
 .TP
 \fB\-rpcconnect=\fR<ip>
 Send commands to node running on <ip>
+.PP
+SSL options: (see the Bitcoin Wiki for SSL setup instructions)
+.TP
+\fB\-rpcssl\fR=\fI1\fR
+Use OpenSSL (https) for JSON\-RPC connections
+.TP
+\fB\-rpcsslcertificatchainfile=\fR<file.cert>
+Server certificate file (default: server.cert)
+.TP
+\fB\-rpcsslprivatekeyfile=\fR<file.pem>
+Server private key (default: server.pem)
+.TP
+\fB\-rpcsslciphers=\fR<ciphers>
+Acceptable ciphers (default: TLSv1+HIGH:\:!SSLv2:\:!aNULL:\:!eNULL:\:!AH:\:!3DES:\:@STRENGTH)
 .TP
 \-?
 This help message
@@ -178,7 +192,7 @@ Sends amount from the server's available balance to 'pivxaddress'. amount is a r
 Stops the pivx server.
 .TP
 \fBvalidateaddress 'pivxaddress'\fR
-Checks that 'pivxaddress' looks like a proper PIVX address. Returns an object containing:
+Checks that 'pivxaddress' looks like a proper Pivx address. Returns an object containing:
 
     "isvalid" : true or false.
     "ismine"  : true if the address is in the server's wallet.
@@ -192,3 +206,4 @@ pivx.conf(5)
 This manual page was written by Micah Anderson <micah@debian.org> for the Debian system (but may be used by others). Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 3 or any later version published by the Free Software Foundation.
 
 On Debian systems, the complete text of the GNU General Public License can be found in /usr/share/common-licenses/GPL.
+
