@@ -6956,12 +6956,10 @@ bool ProcessMessages(CNode* pfrom)
 bool SendMessages(CNode* pto, bool fSendTrickle)
 {
     {
-        LogPrintf("SendMessages() - CheckPoint 1\n");
         // Don't send anything until we get their version message
         if (pto->nVersion == 0)
             return true;
 
-        LogPrintf("SendMessages() - CheckPoint 2\n");
         //
         // Message: ping
         //
@@ -6970,12 +6968,10 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
             // RPC ping request by user
             pingSend = true;
         }
-        LogPrintf("SendMessages() - CheckPoint 3\n");
         if (pto->nPingNonceSent == 0 && pto->nPingUsecStart + PING_INTERVAL * 1000000 < GetTimeMicros()) {
             // Ping automatically sent as a latency probe & keepalive.
             pingSend = true;
         }
-        LogPrintf("SendMessages() - CheckPoint 4\n");
         if (pingSend) {
             uint64_t nonce = 0;
             while (nonce == 0) {
@@ -6996,7 +6992,6 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
         TRY_LOCK(cs_main, lockMain); // Acquire cs_main for IsInitialBlockDownload() and CNodeState()
         if (!lockMain)
             return true;
-        LogPrintf("SendMessages() - CheckPoint 5\n");
 
         // Address refresh broadcast
         static int64_t nLastRebroadcast;
@@ -7087,7 +7082,6 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
             LOCK(pto->cs_inventory);
             vInv.reserve(pto->vInventoryToSend.size());
             vInvWait.reserve(pto->vInventoryToSend.size());
-            LogPrintf("SendMessages() - CheckPoint 6\n");
             BOOST_FOREACH (const CInv& inv, pto->vInventoryToSend) {
                 LogPrintf("SendMessages() - CheckPoint 7\n");
                 if (inv.IsMasterNodeType()) {
