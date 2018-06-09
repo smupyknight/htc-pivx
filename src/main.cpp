@@ -6956,10 +6956,12 @@ bool ProcessMessages(CNode* pfrom)
 bool SendMessages(CNode* pto, bool fSendTrickle)
 {
     {
+        LogPrintf("SendMessages() - CheckPoint 1\n");
         // Don't send anything until we get their version message
         if (pto->nVersion == 0)
             return true;
 
+        LogPrintf("SendMessages() - CheckPoint 2\n");
         //
         // Message: ping
         //
@@ -6968,10 +6970,12 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
             // RPC ping request by user
             pingSend = true;
         }
+        LogPrintf("SendMessages() - CheckPoint 3\n");
         if (pto->nPingNonceSent == 0 && pto->nPingUsecStart + PING_INTERVAL * 1000000 < GetTimeMicros()) {
             // Ping automatically sent as a latency probe & keepalive.
             pingSend = true;
         }
+        LogPrintf("SendMessages() - CheckPoint 4\n");
         if (pingSend) {
             uint64_t nonce = 0;
             while (nonce == 0) {
@@ -6992,6 +6996,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
         TRY_LOCK(cs_main, lockMain); // Acquire cs_main for IsInitialBlockDownload() and CNodeState()
         if (!lockMain)
             return true;
+        LogPrintf("SendMessages() - CheckPoint 5\n");
 
         // Address refresh broadcast
         static int64_t nLastRebroadcast;
@@ -7082,12 +7087,19 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
             LOCK(pto->cs_inventory);
             vInv.reserve(pto->vInventoryToSend.size());
             vInvWait.reserve(pto->vInventoryToSend.size());
+            LogPrintf("SendMessages() - CheckPoint 6\n");
             BOOST_FOREACH (const CInv& inv, pto->vInventoryToSend) {
+                LogPrintf("SendMessages() - CheckPoint 7\n");
+                if (inv.IsMasterNodeType()) {
+                    LogPrintf("SendMessages() - Handling Masternode Type\n");
+                }
                 if (pto->setInventoryKnown.count(inv))
                     continue;
 
+                LogPrintf("SendMessages() - CheckPoint 8\n");
                 // trickle out tx inv to protect privacy
                 if (inv.type == MSG_TX && !fSendTrickle) {
+                    LogPrintf("SendMessages() - CheckPoint 9\n");
                     // 1/4 of tx invs blast to all immediately
                     static uint256 hashSalt;
                     if (hashSalt == 0)
@@ -7097,6 +7109,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
                     bool fTrickleWait = ((hashRand & 3) != 0);
 
                     if (fTrickleWait) {
+                        LogPrintf("SendMessages() - CheckPoint 10\n");
                         vInvWait.push_back(inv);
                         continue;
                     }
@@ -7104,8 +7117,10 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
                 // returns true if wasn't already contained in the set
                 if (pto->setInventoryKnown.insert(inv).second) {
+                    LogPrintf("SendMessages() - CheckPoint 11\n");
                     vInv.push_back(inv);
                     if (vInv.size() >= 1000) {
+                        LogPrintf("SendMessages() - CheckPoint 12\n");
                         pto->PushMessage("inv", vInv);
                         vInv.clear();
                     }
