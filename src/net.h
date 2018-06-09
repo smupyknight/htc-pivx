@@ -400,8 +400,10 @@ public:
     {
         {
             LOCK(cs_inventory);
-            if (!setInventoryKnown.count(inv))
+            if (!setInventoryKnown.count(inv)) {
                 vInventoryToSend.push_back(inv);
+                LogPrintf("CActiveMasternode::SendMasternodePing() - Inventory Pushed Back\n");
+            }
         }
     }
 
