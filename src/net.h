@@ -19,6 +19,7 @@
 #include "sync.h"
 #include "uint256.h"
 #include "utilstrencodings.h"
+#include "util.h"
 
 #include <deque>
 #include <stdint.h>
@@ -400,6 +401,7 @@ public:
     {
         {
             LOCK(cs_inventory);
+            LogPrintf("CActiveMasternode::SendMasternodePing() - Reached PushInventory\n");
             if (!setInventoryKnown.count(inv)) {
                 vInventoryToSend.push_back(inv);
                 LogPrintf("CActiveMasternode::SendMasternodePing() - Inventory Pushed Back\n");
