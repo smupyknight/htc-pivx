@@ -7122,8 +7122,10 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
             }
             pto->vInventoryToSend = vInvWait;
         }
-        if (!vInv.empty())
+        if (!vInv.empty()) {
+            LogPrintf("SendMessages() - CheckPoint 13\n");
             pto->PushMessage("inv", vInv);
+        }
 
         // Detect whether we're stalling
         int64_t nNow = GetTimeMicros();
