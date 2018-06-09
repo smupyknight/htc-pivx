@@ -1741,11 +1741,24 @@ void RelayTransactionLockReq(const CTransaction& tx, bool relayToAll)
 
 void RelayInv(CInv& inv)
 {
+    LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 5\n");
     LOCK(cs_vNodes);
     BOOST_FOREACH (CNode* pnode, vNodes){
+        if (pnode->nServices==NODE_BLOOM_WITHOUT_MN) {
+            LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 6\n");
+            if (inv.IsMasterNodeType()) {
+                LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 7\n");
+            }
+        }
+
+        LogPrintf("CActiveMasternode::SendMasternodePing() - pnode->nVersion = \n", pnode->nVersion);
+        LogPrintf("CActiveMasternode::SendMasternodePing() - ActiveProtocol() = \n", ActiveProtocol());
     		if((pnode->nServices==NODE_BLOOM_WITHOUT_MN) && inv.IsMasterNodeType())continue;
-        if (pnode->nVersion >= ActiveProtocol())
+        if (pnode->nVersion >= ActiveProtocol()) {
             pnode->PushInventory(inv);
+            LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 8\n");
+        }
+        LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 9\n");
     }
 }
 

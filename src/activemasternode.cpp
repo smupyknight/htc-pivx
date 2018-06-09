@@ -178,6 +178,7 @@ bool CActiveMasternode::SendMasternodePing(std::string& errorMessage)
         return false;
     }
 
+    LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 1\n");
     // Update lastPing for our masternode in Masternode list
     CMasternode* pmn = mnodeman.Find(vin);
     if (pmn != NULL) {
@@ -185,6 +186,7 @@ bool CActiveMasternode::SendMasternodePing(std::string& errorMessage)
             errorMessage = "Too early to send Masternode Ping";
             return false;
         }
+        LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 2\n");
 
         pmn->lastPing = mnp;
         mnodeman.mapSeenMasternodePing.insert(make_pair(mnp.GetHash(), mnp));
@@ -194,6 +196,7 @@ bool CActiveMasternode::SendMasternodePing(std::string& errorMessage)
         uint256 hash = mnb.GetHash();
         if (mnodeman.mapSeenMasternodeBroadcast.count(hash)) mnodeman.mapSeenMasternodeBroadcast[hash].lastPing = mnp;
 
+        LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 3\n");
         mnp.Relay();
 
         /*

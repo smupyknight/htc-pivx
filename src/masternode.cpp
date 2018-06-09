@@ -781,6 +781,7 @@ bool CMasternodePing::CheckAndUpdate(int& nDos, bool fRequireEnabled)
 
 void CMasternodePing::Relay()
 {
+    LogPrintf("CActiveMasternode::SendMasternodePing() - Checkpoint 4\n");
     CInv inv(MSG_MASTERNODE_PING, GetHash());
     RelayInv(inv);
 }
