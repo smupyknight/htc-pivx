@@ -1751,6 +1751,10 @@ void RelayInv(CInv& inv)
             }
         }
 
+        if (inv.IsMasterNodeType()) {
+            LogPrintf("CActiveMasternode::SendMasternodePing() - IsMasterNodeType\n");
+        }
+
         LogPrintf("CActiveMasternode::SendMasternodePing() - pnode->nVersion = %d\n", pnode->nVersion);
         LogPrintf("CActiveMasternode::SendMasternodePing() - ActiveProtocol() = %d\n", ActiveProtocol());
     		if((pnode->nServices==NODE_BLOOM_WITHOUT_MN) && inv.IsMasterNodeType())continue;
