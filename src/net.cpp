@@ -1751,8 +1751,8 @@ void RelayInv(CInv& inv)
             }
         }
 
-        LogPrintf("CActiveMasternode::SendMasternodePing() - pnode->nVersion = \n", pnode->nVersion);
-        LogPrintf("CActiveMasternode::SendMasternodePing() - ActiveProtocol() = \n", ActiveProtocol());
+        LogPrintf("CActiveMasternode::SendMasternodePing() - pnode->nVersion = %d\n", pnode->nVersion);
+        LogPrintf("CActiveMasternode::SendMasternodePing() - ActiveProtocol() = %d\n", ActiveProtocol());
     		if((pnode->nServices==NODE_BLOOM_WITHOUT_MN) && inv.IsMasterNodeType())continue;
         if (pnode->nVersion >= ActiveProtocol()) {
             pnode->PushInventory(inv);
