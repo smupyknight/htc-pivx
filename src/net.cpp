@@ -2020,6 +2020,7 @@ void CNode::BeginMessage(const char* pszCommand) EXCLUSIVE_LOCK_FUNCTION(cs_vSen
     assert(ssSend.size() == 0);
     ssSend << CMessageHeader(pszCommand, 0);
     LogPrint("net", "sending: %s ", SanitizeString(pszCommand));
+    LogPrintf("SendMessages() - Sending Message in BeginMessage: %s\n", pszCommand);
 }
 
 void CNode::AbortMessage() UNLOCK_FUNCTION(cs_vSend)
@@ -2036,16 +2037,19 @@ void CNode::EndMessage() UNLOCK_FUNCTION(cs_vSend)
     // The -*messagestest options are intentionally not documented in the help message,
     // since they are only used during development to debug the networking code and are
     // not intended for end-users.
+    LogPrintf("SendMessages() - Sending Message EndMessage Checkpoint 1\n");
     if (mapArgs.count("-dropmessagestest") && GetRand(GetArg("-dropmessagestest", 2)) == 0) {
         LogPrint("net", "dropmessages DROPPING SEND MESSAGE\n");
         AbortMessage();
         return;
     }
+    LogPrintf("SendMessages() - Sending Message EndMessage Checkpoint 2\n");
     if (mapArgs.count("-fuzzmessagestest"))
         Fuzz(GetArg("-fuzzmessagestest", 10));
 
     if (ssSend.size() == 0)
         return;
+    LogPrintf("SendMessages() - Sending Message EndMessage Checkpoint 3\n");
 
     // Set the size
     unsigned int nSize = ssSend.size() - CMessageHeader::HEADER_SIZE;
@@ -2059,6 +2063,7 @@ void CNode::EndMessage() UNLOCK_FUNCTION(cs_vSend)
     memcpy((char*)&ssSend[CMessageHeader::CHECKSUM_OFFSET], &nChecksum, sizeof(nChecksum));
 
     LogPrint("net", "(%d bytes) peer=%d\n", nSize, id);
+    LogPrintf("SendMessages() - Sending Message EndMessage (%d bytes) peer=%d\n", nSize, id);
 
     std::deque<CSerializeData>::iterator it = vSendMsg.insert(vSendMsg.end(), CSerializeData());
     ssSend.GetAndClear(*it);
@@ -2067,6 +2072,7 @@ void CNode::EndMessage() UNLOCK_FUNCTION(cs_vSend)
     // If write queue empty, attempt "optimistic write"
     if (it == vSendMsg.begin())
         SocketSendData(this);
+    LogPrintf("SendMessages() - Sending Message EndMessage Checkpoint 4\n");
 
     LEAVE_CRITICAL_SECTION(cs_vSend);
 }

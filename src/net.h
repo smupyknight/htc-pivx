@@ -438,10 +438,13 @@ public:
     void PushMessage(const char* pszCommand, const T1& a1)
     {
         try {
+            LogPrintf("SendMessages() - CheckPoint 14\n");
+            LogPrintf("SendMessages() - Message = %s\n", pszCommand);
             BeginMessage(pszCommand);
             ssSend << a1;
             EndMessage();
         } catch (...) {
+            LogPrintf("SendMessages() - Sending Message Abort Message\n");
             AbortMessage();
             throw;
         }
