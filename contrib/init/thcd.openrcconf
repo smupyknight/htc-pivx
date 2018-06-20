@@ -1,0 +1,26 @@
+# /etc/conf.d/thcd: config file for /etc/init.d/thcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/thc/thc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/thcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/thcd.pid"
+
+# Where to write thcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/thcd"
+
+# User and group to own thcd process
+#BITCOIND_USER="thc"
+#BITCOIND_GROUP="thc"
+
+# Path to thcd executable
+#BITCOIND_BIN="/usr/bin/thcd"
+
+# Nice value to run thcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

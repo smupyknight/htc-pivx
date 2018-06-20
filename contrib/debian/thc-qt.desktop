@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Thc
+Comment=Thc P2P Cryptocurrency
+Comment[fr]=Thc, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Thc, eşten eşe kriptografik sanal para birimi
+Exec=thc-qt %u
+Terminal=false
+Type=Application
+Icon=thc128
+MimeType=x-scheme-handler/thc;
+Categories=Office;Finance;

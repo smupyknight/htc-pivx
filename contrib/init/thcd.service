@@ -1,0 +1,26 @@
+[Unit]
+Description=THC's distributed currency daemon
+After=network.target
+
+[Service]
+User=thc
+Group=thc
+
+Type=forking
+PIDFile=/var/lib/thcd/thcd.pid
+
+ExecStart=/usr/bin/thcd -daemon -pid=/var/lib/thcd/thcd.pid \
+          -conf=/etc/thc/thc.conf -datadir=/var/lib/thcd
+
+ExecStop=-/usr/bin/thc-cli -conf=/etc/thc/thc.conf \
+         -datadir=/var/lib/thcd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
