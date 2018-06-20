@@ -186,7 +186,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZThcControlDialog</name>
     </context>
 <context>
     <name>thc-core</name>

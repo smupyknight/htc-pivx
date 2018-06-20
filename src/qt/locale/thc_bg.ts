@@ -176,7 +176,7 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>THC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>THC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your THCs from being stolen by malware infecting your computer.</source>
         <translation>THC сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия THC от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR THC&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ THC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1559,32 +1559,32 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 THC</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 THC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 THC</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 THC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 PIV за да скриете 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 THC to anonymize 10000 THC</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 THC за да скриете 10000 THC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 PIV за да скриете 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 THC to anonymize 10000 THC</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 THC за да скриете 10000 THC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на PIV. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на THC. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV за 10000 скрити PIV</translation>
+        <source>0.1 THC per 10000 THC you anonymize.</source>
+        <translation>0.1 THC за 10000 скрити THC</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1723,20 +1723,20 @@ https://www.transifex.com/thc-project/thc-project-translations</source>
 https://www.transifex.com/thc-project/thc-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите PIV, който автоматично да се конвертира в zPIV посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming THC which get automatically converted to zTHC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите THC, който автоматично да се конвертира в zTHC посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент автоматично сечени zPIV</translation>
+        <source>Percentage of autominted zTHC</source>
+        <translation>Процент автоматично сечени zTHC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zPIV докато не се съберат достатъчно PIV за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough THC for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zTHC докато не се съберат достатъчно THC за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zPIV</translation>
+        <source>Preferred Automint zTHC Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zTHC</translation>
     </message>
     <message>
         <source>Connect to the THC network through a SOCKS5 proxy.</source>
@@ -1870,8 +1870,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>От</translation>
     </message>
     <message>
-        <source>PIV Balances</source>
-        <translation>PIV Баланс</translation>
+        <source>THC Balances</source>
+        <translation>THC Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1934,20 +1934,20 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>PIV:</source>
-        <translation>PIV:</translation>
+        <source>THC:</source>
+        <translation>THC:</translation>
     </message>
     <message>
-        <source>zPIV:</source>
-        <translation>zPIV:</translation>
+        <source>zTHC:</source>
+        <translation>zTHC:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 THC</source>
+        <translation>0.000 000 00 THC</translation>
     </message>
     <message>
         <source>Zerocoin Balance</source>
@@ -2071,12 +2071,12 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>PIV which were anonymized via Zerocin Protocol</source>
-        <translation>PIV скрити посредством Зерокойн протокола</translation>
+        <source>THC which were anonymized via Zerocin Protocol</source>
+        <translation>THC скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin PIV (zPIV)</source>
-        <translation>Zerocoin PIV (zPIV)</translation>
+        <source>Zerocoin THC (zTHC)</source>
+        <translation>Zerocoin THC (zTHC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2087,8 +2087,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с THC мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
-        <translation>Въведете колко PIV  да се конвертират в zPIV</translation>
+        <source>Enter an amount of Thc to convert to zThc</source>
+        <translation>Въведете колко THC  да се конвертират в zTHC</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2099,16 +2099,16 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zTHC</source>
+        <translation>zTHC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 THC</source>
+        <translation>0.000 000 00 THC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2143,12 +2143,12 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
-        <translation>zPIV Контрол</translation>
+        <source>zThc Control</source>
+        <translation>zTHC Контрол</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
-        <translation>Избрани zPIV:</translation>
+        <source>zThc Selected:</source>
+        <translation>Избрани zTHC:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2167,8 +2167,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zTHC</source>
+        <translation>0 zTHC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2220,7 +2220,7 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zPIV от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zTHC от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2395,8 +2395,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation>zPIV в</translation>
+        <source> zTHC in </source>
+        <translation>zTHC в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2469,8 +2469,8 @@ Please be patient...</source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
-        <translation>zPIV Похарчени #:</translation>
+        <source>zThc Spend #: </source>
+        <translation>zTHC Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2493,8 +2493,8 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
-        <translation>Сечене на zPIV</translation>
+        <source>zThc Mint</source>
+        <translation>Сечене на zTHC</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3122,8 +3122,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 THC</source>
+        <translation>0 THC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3174,12 +3174,12 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uPIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPIV входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uPIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uTHCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTHCs in fee,&lt;br /&gt;while "at least" pays 1000 uTHCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uTHC и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTHC входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uTHC. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uPIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPIV входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uPIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uTHCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTHCs in fee,&lt;br /&gt;while "total at least" pays 1000 uTHCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uTHC и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTHC входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uTHC. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for THC transactions than the network can process.</source>
@@ -3230,8 +3230,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Анонимизиран PIV</translation>
+        <source>Anonymized THC</source>
+        <translation>Анонимизиран THC</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3287,7 +3287,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Invalid THC address</source>
-        <translation>Предупреждение: Невалиден PIV адрес</translation>
+        <translation>Предупреждение: Невалиден THC адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3910,32 +3910,32 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
-        <translation>Конвертиран PIV във zPIV</translation>
+        <source>Converted Thc to zThc</source>
+        <translation>Конвертиран THC във zTHC</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
-        <translation>Похарчени zPIV</translation>
+        <source>Spent zThc</source>
+        <translation>Похарчени zTHC</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Получен PIV от zPIV</translation>
+        <source>Received Thc from zThc</source>
+        <translation>Получен THC от zTHC</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
-        <translation>Исечено ресто като zPIV от похарчените zPIV</translation>
+        <source>Minted Change as zThc from zThc Spend</source>
+        <translation>Исечено ресто като zTHC от похарчените zTHC</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
-        <translation>Конвертирани zPIV в PIV</translation>
+        <source>Converted zThc to Thc</source>
+        <translation>Конвертирани zTHC в THC</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>наблюдение само</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
-        <translation>zPIV Акумулатор</translation>
+        <source>zThc Accumulator</source>
+        <translation>zTHC Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4041,8 +4041,8 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Получен PIV от zPIV</translation>
+        <source>Received Thc from zThc</source>
+        <translation>Получен THC от zTHC</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4053,8 +4053,8 @@ Please be patient...</source>
         <translation>Харчене на Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
-        <translation>Харчене на Zerocoin, Ресто в zPIV</translation>
+        <source>Zerocoin Spend, Change in zThc</source>
+        <translation>Харчене на Zerocoin, Ресто в zTHC</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4210,10 +4210,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZThcControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
-        <translation>Изберете zPIV за Изпращане</translation>
+        <source>Select zThc to Spend</source>
+        <translation>Изберете zTHC за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4224,8 +4224,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPIV</translation>
+        <source>zThc</source>
+        <translation>zTHC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4287,12 +4287,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в PIV/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in THC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в THC/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в PIV/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in THC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в THC/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

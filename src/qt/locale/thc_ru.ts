@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>THC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>THC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your THCs from being stolen by malware infecting your computer.</source>
         <translation>THC сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши THC от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR THC&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ THC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1527,32 +1527,32 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 THC</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 THC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 THC</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 THC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 PIV для анонимизации 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 THC to anonymize 10000 THC</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 THC для анонимизации 10000 THC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 PIV для анонимизации 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 THC to anonymize 10000 THC</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 THC для анонимизации 10000 THC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV за 10000 PIV которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 THC per 10000 THC you anonymize.</source>
+        <translation>0.1 THC за 10000 THC которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1695,16 +1695,16 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих PIV, которые автоматически конвертируются в zPIV благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming THC which get automatically converted to zTHC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих THC, которые автоматически конвертируются в zTHC благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент  авточеканненых zPIV</translation>
+        <source>Percentage of autominted zTHC</source>
+        <translation>Процент  авточеканненых zTHC</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zPIV</translation>
+        <source>Preferred Automint zTHC Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zTHC</translation>
     </message>
     <message>
         <source>Connect to the THC network through a SOCKS5 proxy.</source>
@@ -1838,8 +1838,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Вид</translation>
     </message>
     <message>
-        <source>PIV Balances</source>
-        <translation>Баланс PIV</translation>
+        <source>THC Balances</source>
+        <translation>Баланс THC</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1902,12 +1902,12 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>PIV:</source>
-        <translation>PIV:</translation>
+        <source>THC:</source>
+        <translation>THC:</translation>
     </message>
     <message>
-        <source>zPIV:</source>
-        <translation>zPIV:</translation>
+        <source>zTHC:</source>
+        <translation>zTHC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>PIV which were anonymized via Zerocin Protocol</source>
-        <translation>PIV, который был анонимно использован через Zerocoin протокол</translation>
+        <source>THC which were anonymized via Zerocin Protocol</source>
+        <translation>THC, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2043,8 +2043,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью THC после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
-        <translation>Введите сумму в Piv для  конвертации в zPiv</translation>
+        <source>Enter an amount of Thc to convert to zThc</source>
+        <translation>Введите сумму в Thc для  конвертации в zThc</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2713,8 +2713,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 THC</source>
+        <translation>0 THC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3197,7 +3197,7 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZThcControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

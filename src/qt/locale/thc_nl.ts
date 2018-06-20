@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>THC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>THC zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw PIVs stelen.</translation>
+        <source>THC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your THCs from being stolen by malware infecting your computer.</source>
+        <translation>THC zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw THCs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW PIV VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR THC&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW THC VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1546,32 +1546,32 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Selecteer de privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 THC</source>
+        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 THC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 THC</source>
+        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 THC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Gebruik 16 aparte masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 PIV om 10000 PIV te anonimiseren</translation>
+        <source>This option is the quickest and will cost about ~0.025 THC to anonymize 10000 THC</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0,025 THC om 10000 THC te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 PIV om 10000 PIV te anonimiseren</translation>
+        <source>This option is moderately fast and will cost about 0.05 THC to anonymize 10000 THC</source>
+        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 THC om 10000 THC te anonimiseren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>je anonimiseert 0,1 PIV per 10000 PIV.</translation>
+        <source>0.1 THC per 10000 THC you anonymize.</source>
+        <translation>je anonimiseert 0,1 THC per 10000 THC.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1714,20 +1714,20 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende PIV die automatisch wordt omgezet naar zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming THC which get automatically converted to zTHC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende THC die automatisch wordt omgezet naar zTHC via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Percentage autominted zPIV</translation>
+        <source>Percentage of autominted zTHC</source>
+        <translation>Percentage autominted zTHC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg PIV voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough THC for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg THC voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Gewenste Automint zPIV denominatie</translation>
+        <source>Preferred Automint zTHC Denomination</source>
+        <translation>Gewenste Automint zTHC denominatie</translation>
     </message>
     <message>
         <source>Connect to the THC network through a SOCKS5 proxy.</source>
@@ -1861,8 +1861,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>PIV Balances</source>
-        <translation>PIV Saldi</translation>
+        <source>THC Balances</source>
+        <translation>THC Saldi</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1925,20 +1925,20 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>PIV:</source>
-        <translation>PIV:</translation>
+        <source>THC:</source>
+        <translation>THC:</translation>
     </message>
     <message>
-        <source>zPIV:</source>
-        <translation>zPIV:</translation>
+        <source>zTHC:</source>
+        <translation>zTHC:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 THC</source>
+        <translation>0.000 000 00 THC</translation>
     </message>
     <message>
         <source>Zerocoin Balance</source>
@@ -2062,12 +2062,12 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>PIV which were anonymized via Zerocin Protocol</source>
-        <translation>PIV die via het Zerocin Protocol geanonimiseerd werden</translation>
+        <source>THC which were anonymized via Zerocin Protocol</source>
+        <translation>THC die via het Zerocin Protocol geanonimiseerd werden</translation>
     </message>
     <message>
-        <source>Zerocoin PIV (zPIV)</source>
-        <translation>Zerocoin PIV (zPIV)</translation>
+        <source>Zerocoin THC (zTHC)</source>
+        <translation>Zerocoin THC (zTHC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2078,8 +2078,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het THC netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
-        <translation>Vul de hoeveleheid in om Piv te converteren naar zPiv</translation>
+        <source>Enter an amount of Thc to convert to zThc</source>
+        <translation>Vul de hoeveleheid in om Thc te converteren naar zThc</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2090,16 +2090,16 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zTHC</source>
+        <translation>zTHC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Beschikbaar voor minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 THC</source>
+        <translation>0.000 000 00 THC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2134,12 +2134,12 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Status en/of Berichten van de laatste mint actie.</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
-        <translation>zPiv controle</translation>
+        <source>zThc Control</source>
+        <translation>zThc controle</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
-        <translation>zPiv geselecteerd:</translation>
+        <source>zThc Selected:</source>
+        <translation>zThc geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2158,8 +2158,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zTHC</source>
+        <translation>0 zTHC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2386,8 +2386,8 @@ https://www.transifex.com/thc-project/thc-project-translations</translation>
         <translation>Succesvol gemint</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zTHC in </source>
+        <translation> zTHC in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2461,8 +2461,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bestede Zerocoin mislukt met status =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
-        <translation>zPiv besteed #: </translation>
+        <source>zThc Spend #: </source>
+        <translation>zThc besteed #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2485,8 +2485,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>adres:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
-        <translation>zPiv Mint</translation>
+        <source>zThc Mint</source>
+        <translation>zThc Mint</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3114,8 +3114,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 THC</source>
+        <translation>0 THC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3166,12 +3166,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPIVs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPIV's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uPIV's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uTHCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTHCs in fee,&lt;br /&gt;while "at least" pays 1000 uTHCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uTHCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uTHC's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uTHC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPIVs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPIV's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uPIV's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uTHCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTHCs in fee,&lt;br /&gt;while "total at least" pays 1000 uTHCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uTHCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uTHC's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uTHC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for THC transactions than the network can process.</source>
@@ -3222,8 +3222,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Geanonimiseerde PIV</translation>
+        <source>Anonymized THC</source>
+        <translation>Geanonimiseerde THC</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3902,32 +3902,32 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verduisterd</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
-        <translation>Geconverteerde Piv naar zPiv</translation>
+        <source>Converted Thc to zThc</source>
+        <translation>Geconverteerde Thc naar zThc</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
-        <translation>Uitgegeven zPiv</translation>
+        <source>Spent zThc</source>
+        <translation>Uitgegeven zThc</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Verkregen Piv van zPiv</translation>
+        <source>Received Thc from zThc</source>
+        <translation>Verkregen Thc van zThc</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
-        <translation>Minted wisselgeld als zPiv van uitgegeven zPiv</translation>
+        <source>Minted Change as zThc from zThc Spend</source>
+        <translation>Minted wisselgeld als zThc van uitgegeven zThc</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
-        <translation>Geconverteerde zPiv naar Piv</translation>
+        <source>Converted zThc to Thc</source>
+        <translation>Geconverteerde zThc naar Thc</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>watch-only</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
-        <translation>zPiv Accumulator</translation>
+        <source>zThc Accumulator</source>
+        <translation>zThc Accumulator</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4037,8 +4037,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Masternode beloning</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Verkregen Piv van zPiv</translation>
+        <source>Received Thc from zThc</source>
+        <translation>Verkregen Thc van zThc</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4049,8 +4049,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Zerocoin uitgegeven</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
-        <translation>Zerocoin uitgegeven, wisselgeld in zPiv</translation>
+        <source>Zerocoin Spend, Change in zThc</source>
+        <translation>Zerocoin uitgegeven, wisselgeld in zThc</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4214,10 +4214,10 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZThcControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
-        <translation>Selecteer zPiv om te spenderen</translation>
+        <source>Select zThc to Spend</source>
+        <translation>Selecteer zThc om te spenderen</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4228,8 +4228,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zThc</source>
+        <translation>zThc</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4323,12 +4323,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in PIV/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in THC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in THC/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in PIV/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in THC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in THC/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4455,12 +4455,12 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "THC Alert" admin@foo.com
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 THC.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 THC.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 THC.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 THC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4763,8 +4763,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "THC Alert" admin@foo.com
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in PIV/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in THC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in THC/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=thc-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef PIV_CONFIG_H])
-AH_TOP([#define PIV_CONFIG_H])
-AH_BOTTOM([#endif //PIV_CONFIG_H])
+AH_TOP([#ifndef THC_CONFIG_H])
+AH_TOP([#define THC_CONFIG_H])
+AH_BOTTOM([#endif //THC_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

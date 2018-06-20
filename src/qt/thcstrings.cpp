@@ -58,7 +58,7 @@ QT_TRANSLATE_NOOP("thc-core", ""
 QT_TRANSLATE_NOOP("thc-core", ""
 "Enable SwiftX, show confirmations for locked transactions (bool, default: %s)"),
 QT_TRANSLATE_NOOP("thc-core", ""
-"Enable automatic wallet backups triggered after each zPiv minting (0-1, "
+"Enable automatic wallet backups triggered after each zThc minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("thc-core", ""
 "Enable spork administration functionality with the appropriate private key."),
@@ -89,10 +89,10 @@ QT_TRANSLATE_NOOP("thc-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("thc-core", ""
-"Fees (in PIV/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in THC/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("thc-core", ""
-"Fees (in PIV/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in THC/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("thc-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -187,10 +187,10 @@ QT_TRANSLATE_NOOP("thc-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("thc-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 PIV."),
+"transaction that are not equal 10000 THC."),
 QT_TRANSLATE_NOOP("thc-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"PIV."),
+"THC."),
 QT_TRANSLATE_NOOP("thc-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -304,7 +304,7 @@ QT_TRANSLATE_NOOP("thc-core", "Failed to listen on any port. Use -listen=0 if yo
 QT_TRANSLATE_NOOP("thc-core", "Failed to read block index"),
 QT_TRANSLATE_NOOP("thc-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("thc-core", "Failed to write block index"),
-QT_TRANSLATE_NOOP("thc-core", "Fee (in PIV/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("thc-core", "Fee (in THC/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("thc-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("thc-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("thc-core", "Found enough users, signing ( waiting %s )"),
