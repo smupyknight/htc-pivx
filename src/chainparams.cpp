@@ -171,7 +171,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000cac776b6d5683d6ca917c0b02f9db5e67103fdb046f6ab8d899b4280cad"));
         assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
-        vSeeds.push_back(CDNSSeedData("159.203.98.65", "159.203.98.65"));     // Primary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("159.203.98.65", "159.203.98.65"));       // Primary DNS Seeder
         vSeeds.push_back(CDNSSeedData("188.166.41.118", "188.166.41.118"));     // Secondary DNS Seeder
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
@@ -267,6 +267,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("159.203.98.65", "159.203.98.65"));
+        vSeeds.push_back(CDNSSeedData("188.166.41.118", "188.166.41.118"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet thc addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet thc script addresses start with '8' or '9'
